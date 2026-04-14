@@ -1,0 +1,19 @@
+{
+  "name": "hw1-job-application-assistant",
+  "version": "1.0.0",
+  "description": "HW1 – Job Application Assistant built with Google Antigravity. Architecture: HTTP Trigger → Processing Function → Google Sheets → AI Completion (Anthropic Claude).",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "@googleapis/sheets": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
